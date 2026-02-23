@@ -58,3 +58,70 @@ nav > ul > li > button {
   border-radius: 14px;
   cursor: pointer;
 }
+/* hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 80vh;
+}
+.hero-top {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.hero-part1 {
+  height: 100%;
+  width: 40%;
+}
+
+.hero-part1 > h1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 100px;
+}
+
+.hero-part1 > p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+  line-height: 25px;
+}
+.hero-part1 > button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 19px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hero-part2 {
+  height: 100%;
+  width: 50%;
+}
+
+.hero-part2 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hero-bottom > img {
+  height: 30px;
+  filter: grayscale(100%);
+  width: 100px;
+}
