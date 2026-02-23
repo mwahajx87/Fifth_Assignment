@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0 2vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+nav > div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+nav > div > img {
+  width: 36px;
+  height: 36px;
+}
+nav > div > h1 {
+  font-size: 36px;
+  color: #000000;
+}
+nav > ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav > ul > li {
+  font-size: 20px;
+  cursor: pointer;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+nav > ul > li > button {
+  padding: 20px 35px;
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: transparent;
+  border-radius: 14px;
+  cursor: pointer;
+}
