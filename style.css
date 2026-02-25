@@ -306,3 +306,84 @@ nav > ul > li > button {
   height: 41px;
   border-radius: 50%;
 }
+.CTA {
+  width: 100%;
+  height: 35vh;
+  background-color: #f3f3f3;
+  margin-top: 10vh;
+  border-radius: 45px;
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CTA > .cta-left {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2vh;
+}
+.CTA > .cta-left > button {
+  padding: 20px 35px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.CTA > .cta-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CTA > .cta-right > img {
+  height: 120%;
+}
+
+.case-studies {
+  height: 100%;
+  width: 100%;
+  margin-top: 10vh;
+}
+.cases {
+  height: 100%;
+  width: 100%;
+  margin-top: 10vh;
+  border: #000000 1px solid;
+  padding: 70px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #fff; 
+  border-radius: 45px;
+}
+.cases > hr{
+  height: 100%;
+  rotate: 90deg;
+  width: 100%;
+}
+.case {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20px;
+}
+
+.case > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  gap: 10px;
+}
+.case> h4 > svg{
+  width: 3vw;
+}
