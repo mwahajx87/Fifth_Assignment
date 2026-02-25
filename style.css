@@ -360,13 +360,13 @@ nav > ul > li > button {
   justify-content: center;
   align-items: center;
   background-color: #000000;
-  color: #fff; 
+  color: #fff;
   border-radius: 45px;
 }
-.cases > hr{
+.cases > hr {
   height: 100%;
   rotate: 90deg;
-  width: 100%;
+  width: 50%;
 }
 .case {
   display: flex;
@@ -384,6 +384,91 @@ nav > ul > li > button {
   color: var(--primary-color);
   gap: 10px;
 }
-.case> h4 > svg{
+.case > h4 > svg {
   width: 3vw;
+}
+
+.work-process {
+  height: 100%;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+.processes {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 20px;
+  margin-top: 10vh;
+}
+.process {
+  /* grid-row: 1 / span 2; */
+  padding: 41px 60px;
+  background-color: var(--primary-color);
+  border-radius: 45px;
+  border: #000000 solid 1px;
+  box-shadow: #000000 0 4px 0 0;
+}
+.process > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.process > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.process > div > div > h1 {
+  font-size: 7.5vh;
+}
+.process > div > div > h2 {
+  font-size: 3vh;
+}
+.process > div > svg {
+  border-radius: 50%;
+  border: #000000 1px solid;
+  width: 45px;
+  background-color: #f3f3f3;
+}
+.process > hr {
+  margin: 2vh 0;
+  border: solid black 1px;
+  background-color: #000000;
+}
+.process > p {
+  width: 95%;
+}
+.process1 {
+  padding: 31px 50px;
+  background-color: #f3f3f3;
+  border-radius: 45px;
+  border: #000000 solid 1px;
+  box-shadow: #000000 0 4px 0 0;
+}
+.process1 > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.process1 > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.process1 > div > div > h1 {
+  font-size: 7.5vh;
+}
+.process1 > div > div > h2 {
+  font-size: 3vh;
+}
+.process1 > div > svg {
+  border-radius: 50%;
+  border: #000000 1px solid;
+  width: 45px;
+  background-color: #f3f3f3;
 }
