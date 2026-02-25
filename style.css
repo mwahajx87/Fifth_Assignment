@@ -129,10 +129,7 @@ nav > ul > li > button {
   filter: grayscale(100%);
   width: 100px;
 }
-.companies-logo > img:hover {
-  filter: grayscale(0%);
-  transition: all 0.3s ease-in-out;
-}
+
 .Services {
   width: 100%;
   height: 100%;
@@ -396,15 +393,14 @@ nav > ul > li > button {
 
 .processes {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 0.5fr);
   gap: 20px;
   margin-top: 10vh;
 }
 .process {
-  /* grid-row: 1 / span 2; */
   padding: 41px 60px;
   background-color: var(--primary-color);
   border-radius: 45px;
@@ -471,4 +467,67 @@ nav > ul > li > button {
   border: #000000 1px solid;
   width: 45px;
   background-color: #f3f3f3;
+}
+.team {
+  height: 100%;
+  width: 100%;
+  margin-top: 10vh;
+}
+.members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 10vh;
+}
+.member {
+  padding: 40px 35px;
+  border: #000000 2px solid;
+  border-radius: 45px;
+}
+.member > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: last baseline;
+  position: relative;
+  gap: 1vw;
+}
+.member > div > img {
+  width: 30%;
+}
+.member > div > div > h1 {
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.member > div > svg {
+  position: absolute;
+  width: 2vw;
+  padding: 4px;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  color: var(--primary-color);
+  border-radius: 50%;
+}
+.member > hr {
+  margin: 2vh 0;
+  border: #000000 solid 1px;
+}
+.member > p {
+  width: 90%;
+}
+.team > span {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.team > span > button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 15px 50px;
+  font-size: 19px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 5vh;
 }
