@@ -6,7 +6,7 @@
 }
 :root {
   --primary-color: #b9ff66;
-  --secondary-color: #000000;
+  --secondary-color: #191a23;
 }
 html,
 body {
@@ -99,7 +99,7 @@ nav > ul > li > button {
 }
 .hero-part1 > button {
   background-color: var(--secondary-color);
-  color: #fff;
+  color: #f3f3f3;
   border: none;
   padding: 15px 30px;
   font-size: 19px;
@@ -210,7 +210,7 @@ nav > ul > li > button {
   gap: 10px;
 }
 .card1 > .card-part1 > h4 > svg {
-  background-color: #000000;
+  background-color: #191a23;
   color: var(--primary-color);
   width: 41px;
   height: 41px;
@@ -222,32 +222,32 @@ nav > ul > li > button {
 }
 .card2 > .card-part1 > div > h1 {
   width: fit-content;
-  background-color: #ffffff;
+  background-color: #f3f3f3;
   padding: 0 7px;
   border-radius: 7px;
 }
 .card2 > .card-part1 > h4 > svg {
-  background-color: #000000;
+  background-color: #191a23;
   color: var(--primary-color);
   width: 41px;
   height: 41px;
   border-radius: 50%;
 }
 .card3 {
-  background-color: #000000;
+  background-color: #191a23;
 }
 .card3 > .card-part1 > div > h1 {
-  background-color: #ffff;
+  background-color: #f3f3f3;
   width: fit-content;
   padding: 0 7px;
   border-radius: 7px;
 }
 .card3 > .card-part1 > h4 {
-  color: #fff;
+  color: #f3f3f3;
 }
 .card3 > .card-part1 > h4 > svg {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #f3f3f3;
+  color: #191a23;
   width: 41px;
   height: 41px;
   border-radius: 50%;
@@ -262,7 +262,7 @@ nav > ul > li > button {
   border-radius: 7px;
 }
 .card4 > .card-part1 > h4 > svg {
-  background-color: #000000;
+  background-color: #191a23;
   color: var(--primary-color);
   width: 41px;
   height: 41px;
@@ -272,20 +272,20 @@ nav > ul > li > button {
   background-color: var(--primary-color);
 }
 .card5 > .card-part1 > div > h1 {
-  background-color: #ffffff;
+  background-color: #f3f3f3;
   width: fit-content;
   padding: 0 7px;
   border-radius: 7px;
 }
 .card5 > .card-part1 > h4 > svg {
-  background-color: #000000;
+  background-color: #191a23;
   color: var(--primary-color);
   width: 41px;
   height: 41px;
   border-radius: 50%;
 }
 .card6 {
-  background-color: #000000;
+  background-color: #191a23;
 }
 .card6 > .card-part1 > div > h1 {
   background-color: var(--primary-color);
@@ -294,11 +294,11 @@ nav > ul > li > button {
   border-radius: 7px;
 }
 .card6 > .card-part1 > h4 {
-  color: #fff;
+  color: #f3f3f3;
 }
 .card6 > .card-part1 > h4 > svg {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #f3f3f3;
+  color: #191a23;
   width: 41px;
   height: 41px;
   border-radius: 50%;
@@ -325,8 +325,8 @@ nav > ul > li > button {
 }
 .CTA > .cta-left > button {
   padding: 20px 35px;
-  color: #ffffff;
-  background-color: #000000;
+  color: #f3f3f3;
+  background-color: #191a23;
   border-radius: 14px;
   cursor: pointer;
 }
@@ -351,13 +351,13 @@ nav > ul > li > button {
   height: 100%;
   width: 100%;
   margin-top: 10vh;
-  border: #000000 1px solid;
+  border: #191a23 1px solid;
   padding: 70px 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
-  color: #fff;
+  background-color: #191a23;
+  color: #f3f3f3;
   border-radius: 45px;
 }
 .cases > hr {
@@ -404,8 +404,8 @@ nav > ul > li > button {
   padding: 41px 60px;
   background-color: var(--primary-color);
   border-radius: 45px;
-  border: #000000 solid 1px;
-  box-shadow: #000000 0 4px 0 0;
+  border: #191a23 solid 1px;
+  box-shadow: #191a23 0 4px 0 0;
 }
 .process > div {
   display: flex;
@@ -426,14 +426,14 @@ nav > ul > li > button {
 }
 .process > div > svg {
   border-radius: 50%;
-  border: #000000 1px solid;
+  border: #191a23 1px solid;
   width: 45px;
   background-color: #f3f3f3;
 }
 .process > hr {
   margin: 2vh 0;
   border: solid black 1px;
-  background-color: #000000;
+  background-color: #191a23;
 }
 .process > p {
   width: 95%;
@@ -442,8 +442,8 @@ nav > ul > li > button {
   padding: 31px 50px;
   background-color: #f3f3f3;
   border-radius: 45px;
-  border: #000000 solid 1px;
-  box-shadow: #000000 0 4px 0 0;
+  border: #191a23 solid 1px;
+  box-shadow: #191a23 0 4px 0 0;
 }
 .process1 > div {
   display: flex;
@@ -464,7 +464,7 @@ nav > ul > li > button {
 }
 .process1 > div > svg {
   border-radius: 50%;
-  border: #000000 1px solid;
+  border: #191a23 1px solid;
   width: 45px;
   background-color: #f3f3f3;
 }
@@ -482,7 +482,7 @@ nav > ul > li > button {
 }
 .member {
   padding: 40px 35px;
-  border: #000000 2px solid;
+  border: #191a23 2px solid;
   border-radius: 45px;
 }
 .member > div {
@@ -505,13 +505,13 @@ nav > ul > li > button {
   padding: 4px;
   top: 0;
   right: 0;
-  background-color: #000000;
+  background-color: #191a23;
   color: var(--primary-color);
   border-radius: 50%;
 }
 .member > hr {
   margin: 2vh 0;
-  border: #000000 solid 1px;
+  border: #191a23 solid 1px;
 }
 .member > p {
   width: 90%;
@@ -523,7 +523,7 @@ nav > ul > li > button {
 }
 .team > span > button {
   background-color: var(--secondary-color);
-  color: #fff;
+  color: #f3f3f3;
   border: none;
   padding: 15px 50px;
   font-size: 19px;
@@ -531,3 +531,63 @@ nav > ul > li > button {
   cursor: pointer;
   margin-top: 5vh;
 }
+
+.testimonials {
+  width: 100%;
+  height: 100%;
+  margin-top: 10vh;
+}
+
+.testimonial {
+  width: 100%;
+  margin-top: 10vh;
+  color: #f3f3f3;
+  background-color: #191a23;
+  border-radius: 45px;
+  padding: 4vh 0;
+  gap: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.testimonial-card {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial-card > p {
+  border: var(--primary-color) 1px solid;
+  border-radius: 45px;
+  padding: 40px;
+}
+.testimonial-card > div {
+  font-size: 10px;
+  margin-left: 6vw;
+}
+.testimonial-card > div > h1 {
+  color: var(--primary-color);
+}
+
+.testimonial-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15vw;
+}
+.testimonial-menu > svg , .svg1 {
+  width: 35px;
+  border: #191a23 3px solid;
+}
+.svg1{
+  opacity: 50%;
+}
+
