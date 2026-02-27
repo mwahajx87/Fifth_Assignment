@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page Assignment - SMIT</title>
+    <link rel="shortcut icon" href="./assets/Icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -562,7 +563,7 @@
         </div>
         <div class="testimonial">
           <div class="testimonial-cards">
-            <div class="testimonial-card">
+            <div class="testimonial-card1">
               <p>
                 "We have been working with Positivus for the past year and have
                 seen a significant increase in website traffic and leads as a
@@ -590,7 +591,7 @@
                 <h3>Marketing Director at XYZ Corp</h3>
               </div>
             </div>
-            <div class="testimonial-card">
+            <div class="testimonial-card2">
               <p>
                 "We have been working with Positivus for the past year and have
                 seen a significant increase in website traffic and leads as a
@@ -635,8 +636,102 @@
           </div>
         </div>
       </section>
-      
+      <section class="contacts">
+        <div class="heading">
+          <h1>Contact us</h1>
+          <p>
+            Connect with Us: Let's Discuss Your <br />
+            Digital Marketing Needs
+          </p>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <div class="radio-group">
+              <label>
+                <input type="radio" name="type" checked />
+                Say Hi
+              </label>
+              <label>
+                <input type="radio" name="type" />
+                Get a Quote
+              </label>
+            </div>
+
+            <form>
+              <div class="input-group">
+                <label>Name</label>
+                <input type="text" placeholder="Name" />
+              </div>
+
+              <div class="input-group">
+                <label>Email*</label>
+                <input type="email" placeholder="Email" />
+              </div>
+
+              <div class="input-group">
+                <label>Message*</label>
+                <textarea rows="5" placeholder="Message"></textarea>
+              </div>
+
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+
+          <div class="contact-image">
+            <img src="./assets/Illustration8.png" alt="Contact illustration" />
+          </div>
+        </div>
+      </section>
     </main>
+    <footer >
+      <div class="footer-container">
+        <!-- Top Row -->
+        <div class="footer-top">
+          <div class="logo"><img src="./assets/Vector2.png" alt=""> <h1>Positivus</h1></div>
+
+          <ul class="nav-links">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Use Cases</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+
+          <div class="socials">
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+
+        <!-- Middle Row -->
+        <div class="footer-middle">
+          <div class="contact">
+            <span class="contact-title">Contact us:</span>
+            <p>Email: info@positivus.com</p>
+            <p>Phone: 555-567-8901</p>
+            <p>
+              Address: 1234 Main St<br />
+              Moonstone City, Stardust State 12345
+            </p>
+          </div>
+
+          <div class="newsletter">
+            <input type="email" placeholder="Email" />
+            <button>Subscribe to news</button>
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- Bottom Row -->
+        <div class="footer-bottom">
+          <p>© 2023 Positivus. All Rights Reserved.</p>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
     <script src="./script.js"></script>
   </body>
 </html>
