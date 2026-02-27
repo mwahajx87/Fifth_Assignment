@@ -701,7 +701,7 @@ footer {
   margin: auto;
 }
 
-/* Top Section */
+
 .footer-top {
   display: flex;
   justify-content: space-between;
@@ -753,7 +753,7 @@ footer {
   font-size: 25px;
 }
 
-/* Middle Section */
+
 .footer-middle {
   display: flex;
   justify-content: space-between;
@@ -781,7 +781,7 @@ footer {
   line-height: 1.5;
 }
 
-/* Newsletter */
+
 .newsletter {
   background: #24283f;
   padding: 30px;
@@ -810,14 +810,14 @@ footer {
   cursor: pointer;
 }
 
-/* Divider */
+
 hr {
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 30px;
 }
 
-/* Bottom */
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
